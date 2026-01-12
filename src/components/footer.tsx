@@ -51,7 +51,7 @@ export function Footer() {
   const brandText = `${footer.brand.name}${footer.brand.brandMark} ${footer.brand.tagline}`
 
   return (
-    <footer id="contact" className="bg-[#1a1a1a] pt-16 md:pt-24 lg:pt-32 pb-8">
+    <footer id="contact" className="bg-primary-950 pt-8 md:pt-24 lg:pt-32 pb-8 rounded-t-3xl">
       <div className="px-6 lg:px-10">
         {/* Large Brand Name */}
         <motion.div
@@ -62,7 +62,7 @@ export function Footer() {
         >
           <motion.h2
             variants={staggerContainer}
-            className="text-[clamp(3rem,12vw,10rem)] font-medium tracking-tight leading-[0.9] text-white"
+            className="text-5xl md:text-[clamp(3rem,18vw,14rem)] font-medium -tracking-[0.1em] leading-[0.9] text-primary-400"
           >
             {brandText.split("").map((char, index) => (
               <motion.span
@@ -78,7 +78,7 @@ export function Footer() {
         </motion.div>
 
         {/* Middle Section - Description, Contact & Newsletter */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 mb-16 md:mb-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 mb-16 ">
           {/* Left - Description & Contact */}
           <div>
             <motion.p
@@ -86,7 +86,7 @@ export function Footer() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-white/70 text-base md:text-lg leading-relaxed mb-8 max-w-md"
+              className="text-white/70 text-base md:text-lg leading-tight tracking-tighter mb-8 max-w-lg"
             >
               {footer.description.text}{" "}
               <span className="text-white font-medium">{footer.description.highlight}</span>
@@ -113,71 +113,33 @@ export function Footer() {
               </a>
             </motion.div>
           </div>
-
-          {/* Right - Newsletter */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="lg:max-w-sm lg:ml-auto"
+            transition={{ duration: 0.6, delay: 0.5 }}
+            className=""
           >
-            <p className="text-white/70 text-sm mb-4">{footer.newsletter.title}</p>
-            <form onSubmit={handleSubmit} className="space-y-3">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder={footer.newsletter.placeholder}
-                className="w-full px-4 py-3 bg-white/10 border border-white/10 rounded-full text-white placeholder:text-white/40 focus:outline-none focus:border-white/30 transition-colors"
-                required
-              />
-              <button
-                type="submit"
-                className="w-full px-6 py-3 bg-white text-foreground rounded-full font-medium hover:bg-white/90 transition-colors"
-              >
-                {footer.newsletter.buttonText}
-              </button>
-            </form>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
+              {/* Link Groups */}
+              {footer.linkGroups.map((group, groupIndex) => (
+                <div key={groupIndex} className="space-y-2">
+                  {group.links.map((link) => (
+                    <Link
+                      key={link.name}
+                      href={link.href}
+                      className="block text-sm font-medium text-white/60 hover:text-white transition-colors"
+                    >
+                      {link.name}
+                    </Link>
+                  ))}
+                </div>
+              ))}
+            </div>
           </motion.div>
         </div>
 
-        {/* Bottom Links */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.5 }}
-          className="pt-8 border-t border-white/10"
-        >
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
-            {/* Link Groups */}
-            {footer.linkGroups.map((group, groupIndex) => (
-              <div key={groupIndex} className="space-y-3">
-                {group.links.map((link) => (
-                  <Link
-                    key={link.name}
-                    href={link.href}
-                    className="block text-sm text-white/60 hover:text-white transition-colors"
-                  >
-                    {link.name}
-                  </Link>
-                ))}
-              </div>
-            ))}
 
-            {/* Credits */}
-            <div className="space-y-2 text-right col-span-2 md:col-span-1">
-              <p className="text-sm text-white/60">
-                {footer.credits.designedIn}{" "}
-                <span className="text-white">{footer.credits.tool}</span>{" "}
-                {footer.credits.by}{" "}
-                <span className="text-white">{footer.credits.author}</span>
-              </p>
-              <p className="text-sm text-white/60">{footer.copyright}</p>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </footer>
   )

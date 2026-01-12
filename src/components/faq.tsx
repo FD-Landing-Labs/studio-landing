@@ -59,7 +59,7 @@ function FAQItem({
         onClick={onToggle}
         className="w-full py-5 flex items-start justify-between gap-4 text-left group"
       >
-        <span className="text-base md:text-lg font-medium text-foreground group-hover:text-foreground/80 transition-colors">
+        <span className="text-base tracking-tighter md:text-xl font-medium text-foreground group-hover:text-foreground/80 transition-colors">
           {index + 1}. {item.question}
         </span>
         <motion.div
@@ -93,7 +93,7 @@ function FAQItem({
             }}
             className="overflow-hidden"
           >
-            <p className="pb-5 text-sm md:text-base text-muted-foreground leading-relaxed pr-10">
+            <p className="pb-5 text-sm md:text-base text-muted-foreground leading-snug tracking-tight pr-10">
               {item.answer}
             </p>
           </motion.div>
@@ -144,7 +144,7 @@ export function FAQ() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="text-[clamp(2rem,5vw,3.5rem)] font-medium tracking-tight leading-[1.15] mb-5"
+              className="text-[clamp(2rem,5vw,3.5rem)] text-primary-700 font-medium tracking-tighter leading-[1.15] mb-5"
             >
               {faq.headline}
             </motion.h2>
@@ -154,7 +154,7 @@ export function FAQ() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="text-sm md:text-base text-muted-foreground leading-relaxed mb-8 max-w-sm"
+              className="text-sm md:text-base tracking-tight text-muted-foreground leading-relaxed mb-8 max-w-sm"
             >
               {faq.description}
             </motion.p>
@@ -181,9 +181,9 @@ export function FAQ() {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true, margin: "-50px" }}
-            className="rounded-2xl border border-border/50 bg-white overflow-hidden"
+            className="rounded-2xl border border-border/50 bg-gray-100 overflow-hidden"
           >
-            <div className="divide-y divide-border/50">
+            <div className="divide-y divide-border/50 m-1.5 bg-white rounded-xl">
               {faq.items.map((item, index) => (
                 <div key={item.id} className="px-6">
                   <FAQItem

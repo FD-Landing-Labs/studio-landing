@@ -48,7 +48,7 @@ export function Hero() {
     <section id="hero" className="relative bg-white pt-24 pb-0 overflow-hidden">
       <div className="px-6 lg:px-10">
         {/* Top Section - Brand Name & Description */}
-        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-8 lg:gap-16 mb-12">
+        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 lg:gap-16 mb-12">
           {/* Large Brand Name */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -57,10 +57,10 @@ export function Hero() {
             className="flex-shrink-0"
           >
             <h1 className="flex items-start">
-              <span className="text-[clamp(4rem,15vw,12rem)] font-medium tracking-tight leading-[0.85] text-foreground">
+              <span className="text-[7rem] md:text-[15rem] font-medium -tracking-[0.1em] leading-[0.85] text-foreground text-primary-700">
                 {hero.brandName}
               </span>
-              <span className="text-[clamp(1.5rem,4vw,3rem)] font-normal mt-2 lg:mt-4 ml-1">
+              <span className="text-[clamp(2rem,4vw,5rem)] font-normal mt-2 lg:mt-4 ml-1">
                 {hero.brandMark}
               </span>
             </h1>
@@ -71,7 +71,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="text-sm md:text-base text-muted-foreground max-w-xs lg:max-w-[240px] lg:text-right lg:mt-4"
+            className="text-sm md:text-lg font-medium tracking-tighter text-muted-foreground max-w-xs lg:max-w-[350px] lg:text-right lg:mt-4"
           >
             {hero.description}
           </motion.p>
@@ -84,44 +84,25 @@ export function Hero() {
           animate="animate"
           className="flex items-center justify-between gap-4 mb-8 overflow-x-auto pb-4"
         >
-          {/* Client Logos */}
-          <div className="flex items-center gap-6 md:gap-10">
-            {hero.clients.logos.map((client, index) => {
-              const IconComponent = iconMap[client.icon] || Camera
-              return (
-                <motion.div
-                  key={client.name}
-                  variants={logoItem}
-                  className="flex items-center gap-2 text-muted-foreground/50 hover:text-muted-foreground transition-colors"
-                >
-                  <IconComponent className="w-5 h-5 md:w-6 md:h-6" />
-                  <span className="hidden md:inline text-xs font-medium uppercase tracking-wider">
-                    {client.name}
-                  </span>
-                </motion.div>
-              )
-            })}
-          </div>
-
           {/* Rating Badge */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="flex-shrink-0 text-right"
+            className="flex-shrink-0"
           >
-            <div className="flex items-center gap-1 justify-end mb-1">
+            <div className="flex items-center gap-1 justify-start mb-1">
               {[...Array(5)].map((_, i) => (
                 <Star
                   key={i}
                   className="w-3 h-3 fill-foreground text-foreground"
                 />
               ))}
-              <span className="text-sm font-medium ml-1">{hero.clients.rating}</span>
+              <span className="text-sm font-medium ml-1 tracking-tight">{hero.clients.rating}</span>
             </div>
-            <p className="text-xs text-muted-foreground">
+            <p className="text-xs text-muted-foreground tracking-tight">
               {hero.clients.trustText}{" "}
-              <span className="font-semibold text-foreground">
+              <span className="font-semibold text-foreground tracking-tight">
                 {hero.clients.trustHighlight}
               </span>
             </p>
@@ -135,12 +116,12 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
           className="relative w-full"
         >
-          <div className="relative aspect-[4/3] md:aspect-[16/10] lg:aspect-[16/9] w-full rounded-t-3xl overflow-hidden bg-muted">
+          <div className="relative aspect-[4/3] md:aspect-[16/10] lg:aspect-[16/7] w-full rounded-3xl overflow-hidden bg-muted">
             <Image
               src={hero.image}
               alt="Hero portrait"
               fill
-              className="object-cover grayscale"
+              className="object-cover grayscale hover:grayscale-0"
               priority
               unoptimized
             />

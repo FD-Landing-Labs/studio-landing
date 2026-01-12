@@ -88,10 +88,10 @@ export function Navbar() {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 mx-6 lg:mx-10 rounded-b-3xl ${isExpanded ? "bg-transparent" : "bg-primary-500"
+        className={`fixed max-w-lg top-0 left-0 right-0 z-50 transition-colors duration-300 mx-auto rounded-b-3xl ${isExpanded ? "bg-transparent" : "bg-primary-500"
           }`}
       >
-        <nav className="flex items-center justify-between px-6 lg:px-10 py-4">
+        <nav className="flex items-center justify-between px-6 py-2">
           {/* Logo */}
           <Link
             href="/"
@@ -204,12 +204,12 @@ export function Navbar() {
                         <Link
                           href={link.href}
                           onClick={closeMenu}
-                          className="group flex items-center justify-between py-5 transition-colors hover:text-primary"
+                          className="group flex items-center justify-between py-5 transition-colors hover:text-primary tracking-tight"
                         >
                           <span className="text-2xl md:text-3xl lg:text-4xl font-medium tracking-tighter">
                             {link.name}
                           </span>
-                          <span className="text-sm text-muted-foreground font-mono">
+                          <span className="text-sm text-muted-foreground font-mono tracking-tight">
                             ({link.number})
                           </span>
                         </Link>
@@ -255,8 +255,8 @@ export function Navbar() {
               >
                 {/* Contact Info */}
                 <div className="space-y-1">
-                  <p className="text-sm font-medium">{navbar.contact.email}</p>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm font-medium tracking-tight">{navbar.contact.email}</p>
+                  <p className="text-sm text-muted-foreground tracking-tight">
                     {navbar.contact.phone}
                   </p>
                 </div>
@@ -269,7 +269,7 @@ export function Navbar() {
                       href={social.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-sm text-muted-foreground hover:text-foreground transition-colors tracking-tight"
                     >
                       {social.name}
                     </Link>

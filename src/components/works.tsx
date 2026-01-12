@@ -61,7 +61,7 @@ export function Works() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="text-[clamp(2.5rem,6vw,4rem)] font-medium tracking-tight leading-[1.1] mb-4"
+              className="text-[clamp(2.5rem,6vw,4rem)] text-primary-700 font-medium tracking-tighter leading-[1.1] mb-4"
             >
               {works.sectionTitle}
             </motion.h2>
@@ -70,7 +70,7 @@ export function Works() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="text-sm md:text-base text-muted-foreground max-w-sm"
+              className="text-sm md:text-base text-muted-foreground max-w-sm tracking-tight"
             >
               {works.sectionDescription}
             </motion.p>
@@ -84,12 +84,12 @@ export function Works() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="flex flex-col items-end gap-4"
           >
-            <span className="text-sm text-muted-foreground font-mono">
+            <span className="text-sm text-muted-foreground font-mono tracking-tight">
               ({works.sectionNumber})
             </span>
             <Link
               href={works.viewAllLink.href}
-              className="group flex items-center gap-2 text-sm font-medium hover:text-muted-foreground transition-colors"
+              className="group flex items-center gap-2 text-sm font-medium hover:text-muted-foreground transition-colors tracking-tight"
             >
               {works.viewAllLink.label}
               <span className="flex items-center justify-center w-6 h-6 rounded-full border border-current transition-transform group-hover:rotate-90">
@@ -111,36 +111,36 @@ export function Works() {
             <motion.article
               key={work.id}
               variants={cardVariants}
-              className="group cursor-pointer"
+              className="group cursor-pointer bg-gray-50 rounded-2xl p-2 hover:bg-gray-100 transition-colors"
             >
               {/* Image Container */}
               <motion.div
                 initial="rest"
                 whileHover="hover"
-                className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-muted mb-4"
+                className="relative aspect-[4/3] rounded-2xl overflow-hidden"
               >
                 <motion.div variants={imageHover} className="absolute inset-0">
                   <Image
                     src={work.image}
                     alt={work.title}
                     fill
-                    className="object-cover"
+                    className="object-cover grayscale group-hover:grayscale-0 transition-all"
                     unoptimized
                   />
                 </motion.div>
               </motion.div>
 
               {/* Project Info */}
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <h3 className="text-base font-semibold mb-1 group-hover:text-muted-foreground transition-colors">
+              <div className="flex items-start justify-between p-2">
+                <div className="">
+                  <h3 className="text-lg font-semibold text-primary-700 group-hover:text-muted-foreground transition-colors tracking-tight">
                     {work.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm text-muted-foreground tracking-tight">
                     {work.category}
                   </p>
                 </div>
-                <span className="text-sm text-muted-foreground font-mono">
+                <span className="text-sm text-muted-foreground font-mono tracking-tight">
                   {work.year}
                 </span>
               </div>

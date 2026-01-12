@@ -88,7 +88,7 @@ function VideoCard({ item }: { item: typeof testimonials.items[0] }) {
       {/* Bottom content - Author info */}
       <div className="absolute bottom-5 left-5">
         <p className="text-white font-medium">{item.name}</p>
-        <p className="text-white/70 text-sm">{item.role}</p>
+        <p className="text-white/70 text-xs tracking-widest uppercase">{item.role}</p>
       </div>
     </motion.div>
   )
@@ -99,7 +99,7 @@ function TextCard({ item }: { item: typeof testimonials.items[0] }) {
   return (
     <motion.div
       variants={cardVariants}
-      className="flex-shrink-0 w-[300px] md:w-[340px] h-[420px] md:h-[480px] rounded-2xl bg-[#2a2a2a] p-6 flex flex-col"
+      className="flex-shrink-0 w-[300px] md:w-[340px] h-[420px] md:h-[480px] rounded-2xl bg-primary-800 p-6 flex flex-col"
     >
       {/* Top content - Stars and rating */}
       <div className="flex items-center justify-between mb-6">
@@ -108,7 +108,7 @@ function TextCard({ item }: { item: typeof testimonials.items[0] }) {
       </div>
 
       {/* Quote */}
-      <blockquote className="text-white text-lg md:text-xl leading-relaxed flex-1">
+      <blockquote className="text-white text-lg md:text-2xl leading-snug tracking-tight flex-1">
         "{item.quote}"
       </blockquote>
 
@@ -126,7 +126,7 @@ function TextCard({ item }: { item: typeof testimonials.items[0] }) {
         </div>
         <div>
           <p className="text-white font-medium text-sm">{item.name}</p>
-          <p className="text-white/60 text-xs">{item.role}</p>
+          <p className="text-white/60 text-xs tracking-widest uppercase">{item.role}</p>
         </div>
       </div>
     </motion.div>
@@ -158,7 +158,7 @@ export function Testimonials() {
   }
 
   return (
-    <section id="testimonials" className="py-20 md:py-28 lg:py-32 bg-[#1a1a1a]">
+    <section id="testimonials" className="py-16 bg-primary-950 mx-6 md:mx-10 rounded-3xl">
       <div className="px-6 lg:px-10">
         {/* Section Header */}
         <div className="flex items-start justify-between mb-8 md:mb-12">
@@ -167,7 +167,7 @@ export function Testimonials() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-sm text-white/60"
+            className="text-sm font-semibold text-white/60"
           >
             {testimonials.sectionLabel}
           </motion.span>
@@ -189,7 +189,7 @@ export function Testimonials() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="text-[clamp(2rem,5vw,3.5rem)] font-medium tracking-tight leading-[1.15] text-white max-w-2xl"
+            className="text-[clamp(2rem,5vw,3.5rem)] font-medium tracking-tighter leading-[1.15] text-white max-w-2xl"
           >
             {testimonials.headline}
           </motion.h2>
@@ -205,22 +205,20 @@ export function Testimonials() {
             <button
               onClick={() => scroll("left")}
               disabled={!canScrollLeft}
-              className={`w-10 h-10 rounded-full border flex items-center justify-center transition-all ${
-                canScrollLeft
-                  ? "border-white/30 text-white hover:bg-white/10"
-                  : "border-white/10 text-white/30 cursor-not-allowed"
-              }`}
+              className={`w-10 h-10 rounded-full border flex items-center justify-center transition-all ${canScrollLeft
+                ? "border-white/30 text-white hover:bg-white/10"
+                : "border-white/10 text-white/30 cursor-not-allowed"
+                }`}
             >
               <ChevronLeft className="w-5 h-5" />
             </button>
             <button
               onClick={() => scroll("right")}
               disabled={!canScrollRight}
-              className={`w-10 h-10 rounded-full border flex items-center justify-center transition-all ${
-                canScrollRight
-                  ? "border-white/30 text-white hover:bg-white/10"
-                  : "border-white/10 text-white/30 cursor-not-allowed"
-              }`}
+              className={`w-10 h-10 rounded-full border flex items-center justify-center transition-all ${canScrollRight
+                ? "border-white/30 text-white hover:bg-white/10"
+                : "border-white/10 text-white/30 cursor-not-allowed"
+                }`}
             >
               <ChevronRight className="w-5 h-5" />
             </button>
@@ -239,6 +237,7 @@ export function Testimonials() {
           style={{
             scrollbarWidth: "none",
             msOverflowStyle: "none",
+            scrollBehavior: "smooth",
           }}
         >
           {testimonials.items.map((item) =>
