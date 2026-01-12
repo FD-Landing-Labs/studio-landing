@@ -1,0 +1,432 @@
+{
+  "site": {
+    "name": "Ayshan",
+    "tagline": "Photography Studio",
+    "description": "Professional photography services capturing your most precious moments with artistic vision and technical excellence.",
+    "logo": {
+      "default": "https://placehold.co/120x40/1a1a1a/ffffff?text=Ayshan",
+      "white": "https://placehold.co/120x40/ffffff/1a1a1a?text=Ayshan",
+      "alt": "Ayshan Photography Studio Logo"
+    },
+    "seo": {
+      "title": "Ayshan - Professional Photography Studio",
+      "description": "Capturing life's beautiful moments with artistic vision. Professional photography services for weddings, portraits, events, and commercial projects.",
+      "keywords": ["photography", "studio", "wedding", "portrait", "events", "professional photographer"],
+      "ogImage": "https://placehold.co/1200x630/1a1a1a/ffffff?text=Ayshan+Photography"
+    },
+    "theme": {
+      "primaryColor": "#ac8f46",
+      "secondaryColor": "#eeebd3",
+      "backgroundColor": "#f5f5f5",
+      "accentColor": "#ded6aa"
+    }
+  },
+
+  "navbar": {
+    "brandName": "Ayshan",
+    "brandMark": "\u00ae",
+    "barLinks": [
+      { "name": "About", "href": "#why-us" },
+      { "name": "Projects", "href": "#works" },
+      { "name": "Blog", "href": "#faq" }
+    ],
+    "cta": {
+      "label": "Start a project",
+      "href": "#contact"
+    },
+    "menuLinks": [
+      { "name": "Home", "number": "01", "href": "#hero" },
+      { "name": "About", "number": "02", "href": "#why-us" },
+      { "name": "Projects", "number": "03", "href": "#works" },
+      { "name": "Blog", "number": "04", "href": "#faq" },
+      { "name": "Contact", "number": "05", "href": "#contact" }
+    ],
+    "featured": {
+      "studioName": "Ayshan\u00ae Studio",
+      "image": "https://placehold.co/500x350/2a2a2a/888888?text=Featured+Image",
+      "copyright": "\u00a9 2025 All rights reserved"
+    },
+    "contact": {
+      "email": "hello@ayshan.studio",
+      "phone": "(123) 456-7890"
+    },
+    "socialLinks": [
+      { "name": "Twitter/X", "href": "https://twitter.com" },
+      { "name": "Instagram", "href": "https://instagram.com" },
+      { "name": "LinkedIn", "href": "https://linkedin.com" }
+    ]
+  },
+
+  "hero": {
+    "brandName": "Ayshan",
+    "brandMark": "\u00ae",
+    "description": "Ayshan is a photography studio crafting refined visual stories and timeless portraits.",
+    "image": "https://placehold.co/1200x800/2a2a2a/888888?text=Portrait",
+    "clients": {
+      "logos": [
+        { "name": "Studio A", "icon": "camera" },
+        { "name": "Brand Co", "icon": "aperture" },
+        { "name": "Photo Lab", "icon": "image" },
+        { "name": "Visual", "icon": "eye" },
+        { "name": "Frame", "icon": "frame" },
+        { "name": "Lens Pro", "icon": "focus" },
+        { "name": "Capture", "icon": "camera" },
+        { "name": "Pixel", "icon": "aperture" }
+      ],
+      "rating": "4.9/5",
+      "trustText": "Trusted by",
+      "trustHighlight": "100+ businesses"
+    }
+  },
+
+  "works": {
+    "sectionTitle": "Selected Work.",
+    "sectionNumber": "02",
+    "sectionDescription": "A curated selection of projects that reflect our commitment to simplicity and purposeful design.",
+    "viewAllLink": {
+      "label": "View all projects",
+      "href": "#"
+    },
+    "items": [
+      {
+        "id": "work-1",
+        "title": "Lune",
+        "category": "App Visual Direction",
+        "image": "https://placehold.co/600x750/f0f0f0/333333?text=Lune",
+        "year": "2025"
+      },
+      {
+        "id": "work-2",
+        "title": "Aren",
+        "category": "Fashion Brand Launch",
+        "image": "https://placehold.co/600x750/e8e8e8/333333?text=Aren",
+        "year": "2025"
+      },
+      {
+        "id": "work-3",
+        "title": "Oura",
+        "category": "Brand Refinement",
+        "image": "https://placehold.co/600x750/fff5f5/333333?text=Oura",
+        "year": "2024"
+      },
+      {
+        "id": "work-4",
+        "title": "Forma",
+        "category": "Product UI",
+        "image": "https://placehold.co/600x750/e0e8f0/333333?text=Forma",
+        "year": "2024"
+      },
+      {
+        "id": "work-5",
+        "title": "Oko",
+        "category": "Portfolio Website",
+        "image": "https://placehold.co/600x750/e5e5e5/333333?text=Oko",
+        "year": "2023"
+      },
+      {
+        "id": "work-6",
+        "title": "Velin",
+        "category": "Skincare Rebrand",
+        "image": "https://placehold.co/600x750/f5f0e8/333333?text=Velin",
+        "year": "2022"
+      }
+    ]
+  },
+
+  "whyUs": {
+    "sectionLabel": "/Why us",
+    "sectionNumber": "03",
+    "headline": {
+      "main": "We cut through noise to create designs that are",
+      "highlight": "thoughtful, timeless, and impactful."
+    },
+    "featuredCard": {
+      "title": "Purposeful Design for Modern Brands.",
+      "image": "https://placehold.co/400x300/2a2a2a/666666?text=Architecture",
+      "year": "2025",
+      "cta": { "label": "Get started", "href": "#contact" },
+      "bulletPoints": [
+        "Collaborative Approach",
+        "Quick turnaround",
+        "Clear Communication",
+        "Consistent Quality",
+        "Reliable Support"
+      ]
+    },
+    "socialProof": {
+      "avatars": [
+        "https://placehold.co/40x40/333/fff?text=1",
+        "https://placehold.co/40x40/444/fff?text=2",
+        "https://placehold.co/40x40/555/fff?text=3",
+        "https://placehold.co/40x40/666/fff?text=4",
+        "https://placehold.co/40x40/777/fff?text=5"
+      ],
+      "rating": "4.9/5",
+      "clientCount": "100+",
+      "clientText": "Happy clients worldwide",
+      "testimonial": {
+        "quote": "Ayshan understood our brand better than we did. Their ability to find the essential and express it simply is what sets them apart.",
+        "author": "Sofia Ford",
+        "role": "Founder",
+        "avatar": "https://placehold.co/40x40/888/fff?text=SF"
+      }
+    },
+    "features": [
+      {
+        "id": "feature-1",
+        "icon": "zap",
+        "title": "Streamlined Process",
+        "description": "Our focused, step-by-step approach saves time and keeps projects moving smoothly."
+      },
+      {
+        "id": "feature-2",
+        "icon": "scissors",
+        "title": "Scalable Design",
+        "description": "We create systems that grow with your brand and stay effective over time."
+      },
+      {
+        "id": "feature-3",
+        "icon": "clock",
+        "title": "24/7 Dedicated Support",
+        "description": "We're always here when you need us, ready to answer questions, provide updates."
+      }
+    ],
+    "brandCard": {
+      "brandName": "Ayshan\u00ae",
+      "image": "https://placehold.co/400x500/3a3a3a/888888?text=Silhouette",
+      "headline": "Design with intent.",
+      "tagline": "No excess, no fluff."
+    }
+  },
+
+  "pricing": {
+    "sectionTitle": "Pricing Plans.",
+    "sectionNumber": "06",
+    "sectionDescription": "A curated selection of projects that reflect our commitment to simplicity and purposeful design.",
+    "tabs": ["Monthly", "Project based"],
+    "plans": {
+      "monthly": {
+        "label": "Subscription",
+        "brandName": "Ayshan\u00ae",
+        "price": 2500,
+        "period": "/month",
+        "description": "For ongoing support and flexible design needs. Ideal for startups, growing brands, and marketing teams needing consistent creative support.",
+        "addOn": {
+          "price": 800,
+          "period": "/m",
+          "label": "SEO optimization Add-on."
+        },
+        "features": [
+          "Unlimited design requests",
+          "One active task at a time",
+          "Weekly progress calls",
+          "Fast turnaround times",
+          "Brand consistency across all deliverables",
+          "Priority support",
+          "Pause or cancel anytime"
+        ],
+        "delivery": {
+          "label": "Estimated delivery:",
+          "value": "48 hours"
+        },
+        "cta": {
+          "label": "Get started",
+          "href": "#contact"
+        }
+      },
+      "project": {
+        "label": "Project Based",
+        "brandName": "Ayshan\u00ae",
+        "price": 5000,
+        "period": "/project",
+        "description": "For one-time projects with clear scope and deliverables. Perfect for rebrands, campaigns, and website designs.",
+        "addOn": {
+          "price": 1500,
+          "period": "",
+          "label": "Rush delivery Add-on."
+        },
+        "features": [
+          "Complete project delivery",
+          "Dedicated project manager",
+          "Strategy & discovery session",
+          "Multiple revision rounds",
+          "Source files included",
+          "Priority support",
+          "30-day post-launch support"
+        ],
+        "delivery": {
+          "label": "Estimated delivery:",
+          "value": "2-4 weeks"
+        },
+        "cta": {
+          "label": "Get started",
+          "href": "#contact"
+        }
+      }
+    }
+  },
+
+  "testimonials": {
+    "sectionLabel": "/Testimonials",
+    "sectionNumber": "07",
+    "headline": "Success stories from our clients.",
+    "items": [
+      {
+        "id": "testimonial-1",
+        "type": "video",
+        "name": "Alex D.",
+        "role": "Creative Director",
+        "quote": "",
+        "avatar": "",
+        "videoThumbnail": "https://placehold.co/500x600/3a3a3a/888888?text=Video+Testimonial",
+        "rating": 5,
+        "ratingText": "4.9/5"
+      },
+      {
+        "id": "testimonial-2",
+        "type": "text",
+        "name": "Emma V.",
+        "role": "Founder",
+        "quote": "Working with Ayshan felt effortless. They have a rare ability to take complex ideas and distill them into something beautifully simple.",
+        "avatar": "https://placehold.co/48x48/444/fff?text=EV",
+        "videoThumbnail": "",
+        "rating": 5,
+        "ratingText": "4.5/5"
+      },
+      {
+        "id": "testimonial-3",
+        "type": "text",
+        "name": "Julian M.",
+        "role": "Creative Director",
+        "quote": "Ayshan doesn't just design, they listen, interpret, and then create with precision.",
+        "avatar": "https://placehold.co/48x48/444/fff?text=JM",
+        "videoThumbnail": "",
+        "rating": 5,
+        "ratingText": "4.8/5"
+      },
+      {
+        "id": "testimonial-4",
+        "type": "text",
+        "name": "Sofia R.",
+        "role": "Marketing Lead",
+        "quote": "The attention to detail and creative vision exceeded all our expectations. Truly exceptional work.",
+        "avatar": "https://placehold.co/48x48/444/fff?text=SR",
+        "videoThumbnail": "",
+        "rating": 5,
+        "ratingText": "5.0/5"
+      },
+      {
+        "id": "testimonial-5",
+        "type": "video",
+        "name": "Marcus T.",
+        "role": "CEO",
+        "quote": "",
+        "avatar": "",
+        "videoThumbnail": "https://placehold.co/500x600/2a2a2a/888888?text=Video+Review",
+        "rating": 5,
+        "ratingText": "4.7/5"
+      }
+    ]
+  },
+
+  "faq": {
+    "sectionLabel": "/FAQs",
+    "sectionNumber": "08",
+    "headline": "Wondering How We Work?",
+    "description": "Answers to common questions about our process, services, and how we work.",
+    "cta": {
+      "label": "Contact us",
+      "href": "#contact"
+    },
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "What kind of clients do you work with?",
+        "answer": "We work with a diverse range of clients including startups, established brands, creative agencies, and individual entrepreneurs. Whether you're launching a new product or refreshing an existing brand, we're here to help bring your vision to life."
+      },
+      {
+        "id": "faq-2",
+        "question": "What services do you offer?",
+        "answer": "Our services include brand identity design, web design and development, photography, video production, and creative direction. We offer both comprehensive packages and individual services tailored to your specific needs."
+      },
+      {
+        "id": "faq-3",
+        "question": "How do you price your projects?",
+        "answer": "We offer flexible pricing options including project-based fees and monthly retainers. After understanding your needs during our initial consultation, we provide a detailed proposal with transparent pricing. No hidden fees, ever."
+      },
+      {
+        "id": "faq-4",
+        "question": "What is your typical project timeline?",
+        "answer": "Timelines vary based on project scope. A brand identity project typically takes 4-6 weeks, while a complete website can take 6-10 weeks. We'll provide a detailed timeline during our kickoff meeting and keep you updated throughout the process."
+      },
+      {
+        "id": "faq-5",
+        "question": "Can we collaborate remotely?",
+        "answer": "Absolutely! We work with clients globally and have refined our remote collaboration process. We use modern tools for communication, file sharing, and project management to ensure seamless collaboration regardless of location."
+      },
+      {
+        "id": "faq-6",
+        "question": "Do you accept one-off design tasks or only full projects?",
+        "answer": "We accept both! While we love comprehensive projects, we understand that sometimes you need quick design support. Our monthly retainer plans are perfect for ongoing design needs, and we also take on smaller, focused projects."
+      },
+      {
+        "id": "faq-7",
+        "question": "How many concepts or revisions are included?",
+        "answer": "Our standard packages include 2-3 initial concepts and 2 rounds of revisions. We find this provides enough creative exploration while keeping projects focused. Additional revisions can be arranged if needed."
+      }
+    ]
+  },
+
+  "footer": {
+    "brand": {
+      "name": "Ayshan",
+      "tagline": "Studio",
+      "brandMark": "\u00ae"
+    },
+    "description": {
+      "text": "Whether you're building a brand, designing a product, or simply want to explore an idea,",
+      "highlight": "we'd love to hear from you."
+    },
+    "contact": {
+      "email": "hello@ayshan.studio",
+      "phone": "(123) 456-7890"
+    },
+    "newsletter": {
+      "title": "Sign up for our monthly newsletter.",
+      "placeholder": "Email",
+      "buttonText": "Sign up"
+    },
+    "linkGroups": [
+      {
+        "links": [
+          { "name": "Home", "href": "#hero" },
+          { "name": "About", "href": "#why-us" },
+          { "name": "Projects", "href": "#works" },
+          { "name": "Blog", "href": "#faq" },
+          { "name": "Contact", "href": "#contact" }
+        ]
+      },
+      {
+        "links": [
+          { "name": "Terms & Conditions", "href": "/terms" },
+          { "name": "Privacy Policy", "href": "/privacy" },
+          { "name": "404", "href": "/404" }
+        ]
+      },
+      {
+        "links": [
+          { "name": "Twitter/X", "href": "https://twitter.com" },
+          { "name": "Instagram", "href": "https://instagram.com" },
+          { "name": "LinkedIn", "href": "https://linkedin.com" }
+        ]
+      }
+    ],
+    "credits": {
+      "designedIn": "Designed in",
+      "tool": "Next.js",
+      "by": "By",
+      "author": "Ayshan"
+    },
+    "copyright": "\u00a9 2025 All rights reserved"
+  }
+}
