@@ -1,18 +1,25 @@
 {
   "site": {
-    "name": "Ayshan",
+    "name": "Kanero",
     "tagline": "Photography Studio",
     "description": "Professional photography services capturing your most precious moments with artistic vision and technical excellence.",
     "logo": {
-      "default": "https://placehold.co/120x40/1a1a1a/ffffff?text=Ayshan",
-      "white": "https://placehold.co/120x40/ffffff/1a1a1a?text=Ayshan",
-      "alt": "Ayshan Photography Studio Logo"
+      "default": "https://placehold.co/120x40/1a1a1a/ffffff?text=Kanero",
+      "white": "https://placehold.co/120x40/ffffff/1a1a1a?text=Kanero",
+      "alt": "Kanero Photography Studio Logo"
     },
     "seo": {
-      "title": "Ayshan - Professional Photography Studio",
+      "title": "Kanero - Professional Photography Studio",
       "description": "Capturing life's beautiful moments with artistic vision. Professional photography services for weddings, portraits, events, and commercial projects.",
-      "keywords": ["photography", "studio", "wedding", "portrait", "events", "professional photographer"],
-      "ogImage": "https://placehold.co/1200x630/1a1a1a/ffffff?text=Ayshan+Photography"
+      "keywords": [
+        "photography",
+        "studio",
+        "wedding",
+        "portrait",
+        "events",
+        "professional photographer"
+      ],
+      "ogImage": "https://placehold.co/1200x630/1a1a1a/ffffff?text=Kanero+Photography"
     },
     "theme": {
       "primaryColor": "#ac8f46",
@@ -21,64 +28,123 @@
       "accentColor": "#ded6aa"
     }
   },
-
   "navbar": {
-    "brandName": "Ayshan",
+    "brandName": "Kanero",
     "brandMark": "\u00ae",
     "barLinks": [
-      { "name": "About", "href": "#why-us" },
-      { "name": "Projects", "href": "#works" },
-      { "name": "Blog", "href": "#faq" }
+      {
+        "name": "About",
+        "href": "#why-us"
+      },
+      {
+        "name": "Projects",
+        "href": "#works"
+      },
+      {
+        "name": "Blog",
+        "href": "#faq"
+      }
     ],
     "cta": {
-      "label": "Start a project",
-      "href": "#contact"
+      "label": "Let's Capture",
+      "href": "#footer"
     },
     "menuLinks": [
-      { "name": "Home", "number": "01", "href": "#hero" },
-      { "name": "About", "number": "02", "href": "#why-us" },
-      { "name": "Projects", "number": "03", "href": "#works" },
-      { "name": "Blog", "number": "04", "href": "#faq" },
-      { "name": "Contact", "number": "05", "href": "#contact" }
+      {
+        "name": "Home",
+        "number": "01",
+        "href": "#hero"
+      },
+      {
+        "name": "About",
+        "number": "02",
+        "href": "#why-us"
+      },
+      {
+        "name": "Projects",
+        "number": "03",
+        "href": "#works"
+      },
+      {
+        "name": "Testimonials",
+        "number": "04",
+        "href": "#testimonials"
+      },
+      {
+        "name": "Contact",
+        "number": "05",
+        "href": "#footer"
+      }
     ],
     "featured": {
-      "studioName": "Ayshan\u00ae Studio",
-      "image": "https://placehold.co/500x350/2a2a2a/888888?text=Featured+Image",
-      "copyright": "\u00a9 2025 All rights reserved"
+      "studioName": "Kanero\u00ae Studio",
+      "image": "/assets/images/feature.jpg",
+      "copyright": "\u00a9 2026 All rights reserved"
     },
     "contact": {
-      "email": "hello@ayshan.studio",
+      "email": "hello@Kanero.studio",
       "phone": "(123) 456-7890"
     },
     "socialLinks": [
-      { "name": "Twitter/X", "href": "https://twitter.com" },
-      { "name": "Instagram", "href": "https://instagram.com" },
-      { "name": "LinkedIn", "href": "https://linkedin.com" }
+      {
+        "name": "Twitter/X",
+        "href": "https://twitter.com"
+      },
+      {
+        "name": "Instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "name": "LinkedIn",
+        "href": "https://linkedin.com"
+      }
     ]
   },
-
   "hero": {
-    "brandName": "Ayshan",
+    "brandName": "Kanero",
     "brandMark": "\u00ae",
-    "description": "Ayshan is a photography studio crafting refined visual stories and timeless portraits.",
-    "image": "https://placehold.co/1200x800/2a2a2a/888888?text=Portrait",
+    "description": "Kanero is a photography studio crafting refined visual stories and timeless portraits.",
+    "image": "/assets/images/hero.jpg",
     "clients": {
       "logos": [
-        { "name": "Studio A", "icon": "camera" },
-        { "name": "Brand Co", "icon": "aperture" },
-        { "name": "Photo Lab", "icon": "image" },
-        { "name": "Visual", "icon": "eye" },
-        { "name": "Frame", "icon": "frame" },
-        { "name": "Lens Pro", "icon": "focus" },
-        { "name": "Capture", "icon": "camera" },
-        { "name": "Pixel", "icon": "aperture" }
+        {
+          "name": "Studio A",
+          "icon": "camera"
+        },
+        {
+          "name": "Brand Co",
+          "icon": "aperture"
+        },
+        {
+          "name": "Photo Lab",
+          "icon": "image"
+        },
+        {
+          "name": "Visual",
+          "icon": "eye"
+        },
+        {
+          "name": "Frame",
+          "icon": "frame"
+        },
+        {
+          "name": "Lens Pro",
+          "icon": "focus"
+        },
+        {
+          "name": "Capture",
+          "icon": "camera"
+        },
+        {
+          "name": "Pixel",
+          "icon": "aperture"
+        }
       ],
       "rating": "4.9/5",
       "trustText": "Trusted by",
-      "trustHighlight": "100+ businesses"
+      "trustHighlight": "100+ clients"
     }
   },
-
   "works": {
     "sectionTitle": "Selected Work.",
     "sectionNumber": "02",
@@ -90,49 +156,48 @@
     "items": [
       {
         "id": "work-1",
-        "title": "Lune",
-        "category": "App Visual Direction",
-        "image": "https://placehold.co/600x750/f0f0f0/333333?text=Lune",
-        "year": "2025"
+        "title": "Wedding",
+        "category": "Wedding Photography",
+        "image": "/assets/images/work/wedding.jpg",
+        "year": "2026"
       },
       {
         "id": "work-2",
-        "title": "Aren",
-        "category": "Fashion Brand Launch",
-        "image": "https://placehold.co/600x750/e8e8e8/333333?text=Aren",
-        "year": "2025"
+        "title": "Bridal",
+        "category": "Bride to Be Photography",
+        "image": "/assets/images/work/bridal.jpg",
+        "year": "2026"
       },
       {
         "id": "work-3",
-        "title": "Oura",
-        "category": "Brand Refinement",
-        "image": "https://placehold.co/600x750/fff5f5/333333?text=Oura",
+        "title": "Baby Shower",
+        "category": "Baby Shower Photography",
+        "image": "/assets/images/work/baby.jpg",
         "year": "2024"
       },
       {
         "id": "work-4",
-        "title": "Forma",
-        "category": "Product UI",
-        "image": "https://placehold.co/600x750/e0e8f0/333333?text=Forma",
+        "title": "Objecta",
+        "category": "Product shoot",
+        "image": "/assets/images/work/object.jpg",
         "year": "2024"
       },
       {
         "id": "work-5",
-        "title": "Oko",
-        "category": "Portfolio Website",
-        "image": "https://placehold.co/600x750/e5e5e5/333333?text=Oko",
+        "title": "Branding",
+        "category": "Corporate Photography",
+        "image": "/assets/images/work/photo.jpg",
         "year": "2023"
       },
       {
         "id": "work-6",
-        "title": "Velin",
-        "category": "Skincare Rebrand",
-        "image": "https://placehold.co/600x750/f5f0e8/333333?text=Velin",
+        "title": "Graduation",
+        "category": "Graduation Photography",
+        "image": "/assets/images/work/grad.jpg",
         "year": "2022"
       }
     ]
   },
-
   "whyUs": {
     "sectionLabel": "/Why us",
     "sectionNumber": "03",
@@ -142,9 +207,12 @@
     },
     "featuredCard": {
       "title": "Purposeful Design for Modern Brands.",
-      "image": "https://placehold.co/400x300/2a2a2a/666666?text=Architecture",
-      "year": "2025",
-      "cta": { "label": "Get started", "href": "#contact" },
+      "image": "/assets/images/sky.jpg",
+      "year": "2026",
+      "cta": {
+        "label": "Get started",
+        "href": "#contact"
+      },
       "bulletPoints": [
         "Collaborative Approach",
         "Quick turnaround",
@@ -155,20 +223,20 @@
     },
     "socialProof": {
       "avatars": [
-        "https://placehold.co/40x40/333/fff?text=1",
-        "https://placehold.co/40x40/444/fff?text=2",
-        "https://placehold.co/40x40/555/fff?text=3",
-        "https://placehold.co/40x40/666/fff?text=4",
-        "https://placehold.co/40x40/777/fff?text=5"
+        "/assets/images/avatar/1.jpg",
+        "/assets/images/avatar/2.jpg",
+        "/assets/images/avatar/3.jpg",
+        "/assets/images/avatar/4.jpg",
+        "/assets/images/avatar/5.jpg"
       ],
       "rating": "4.9/5",
       "clientCount": "100+",
       "clientText": "Happy clients worldwide",
       "testimonial": {
-        "quote": "Ayshan understood our brand better than we did. Their ability to find the essential and express it simply is what sets them apart.",
+        "quote": "Kanero understood our brand better than we did. Their ability to find the essential and express it simply is what sets them apart.",
         "author": "Sofia Ford",
         "role": "Founder",
-        "avatar": "https://placehold.co/40x40/888/fff?text=SF"
+        "avatar": "/assets/images/avatar/4.jpg"
       }
     },
     "features": [
@@ -192,80 +260,145 @@
       }
     ],
     "brandCard": {
-      "brandName": "Ayshan\u00ae",
-      "image": "https://placehold.co/400x500/3a3a3a/888888?text=Silhouette",
+      "brandName": "Kanero\u00ae",
+      "image": "/assets/images/me.jpg",
       "headline": "Design with intent.",
       "tagline": "No excess, no fluff."
     }
   },
-
   "pricing": {
-    "sectionTitle": "Pricing Plans.",
+    "sectionTitle": "Photography Packages.",
     "sectionNumber": "06",
-    "sectionDescription": "A curated selection of projects that reflect our commitment to simplicity and purposeful design.",
-    "tabs": ["Monthly", "Project based"],
-    "plans": {
-      "monthly": {
-        "label": "Subscription",
-        "brandName": "Ayshan\u00ae",
+    "sectionDescription": "Professional photography packages tailored for every special moment. Choose the perfect package for your occasion.",
+    "packages": [
+      {
+        "id": "wedding",
+        "name": "Wedding",
+        "icon": "heart",
         "price": 2500,
-        "period": "/month",
-        "description": "For ongoing support and flexible design needs. Ideal for startups, growing brands, and marketing teams needing consistent creative support.",
-        "addOn": {
-          "price": 800,
-          "period": "/m",
-          "label": "SEO optimization Add-on."
-        },
+        "priceLabel": "Starting from",
+        "description": "Capture every magical moment of your special day with our comprehensive wedding photography package.",
         "features": [
-          "Unlimited design requests",
-          "One active task at a time",
-          "Weekly progress calls",
-          "Fast turnaround times",
-          "Brand consistency across all deliverables",
-          "Priority support",
-          "Pause or cancel anytime"
+          "Full day coverage (8-10 hours)",
+          "Two professional photographers",
+          "500+ edited photos",
+          "Online gallery",
+          "Engagement session included",
+          "Premium photo album"
         ],
-        "delivery": {
-          "label": "Estimated delivery:",
-          "value": "48 hours"
-        },
+        "popular": true,
         "cta": {
-          "label": "Get started",
-          "href": "#contact"
+          "label": "Book Now",
+          "href": "#footer"
         }
       },
-      "project": {
-        "label": "Project Based",
-        "brandName": "Ayshan\u00ae",
-        "price": 5000,
-        "period": "/project",
-        "description": "For one-time projects with clear scope and deliverables. Perfect for rebrands, campaigns, and website designs.",
-        "addOn": {
-          "price": 1500,
-          "period": "",
-          "label": "Rush delivery Add-on."
-        },
+      {
+        "id": "bridal",
+        "name": "Bridal Shoot",
+        "icon": "sparkles",
+        "price": 800,
+        "priceLabel": "Starting from",
+        "description": "Elegant bridal portraits that celebrate you. Perfect for bride-to-be sessions and pre-wedding shoots.",
         "features": [
-          "Complete project delivery",
-          "Dedicated project manager",
-          "Strategy & discovery session",
-          "Multiple revision rounds",
-          "Source files included",
-          "Priority support",
-          "30-day post-launch support"
+          "2-3 hour session",
+          "Professional styling guidance",
+          "50+ edited photos",
+          "Multiple outfit changes",
+          "Indoor & outdoor locations",
+          "Digital delivery"
         ],
-        "delivery": {
-          "label": "Estimated delivery:",
-          "value": "2-4 weeks"
-        },
+        "popular": false,
         "cta": {
-          "label": "Get started",
-          "href": "#contact"
+          "label": "Book Now",
+          "href": "#footer"
+        }
+      },
+      {
+        "id": "baby-shower",
+        "name": "Baby Shower",
+        "icon": "baby",
+        "price": 600,
+        "priceLabel": "Starting from",
+        "description": "Celebrate the joy of new beginnings with beautiful baby shower photography.",
+        "features": [
+          "2 hour event coverage",
+          "Candid & posed shots",
+          "40+ edited photos",
+          "Guest group photos",
+          "Detail shots of decor",
+          "Quick 7-day delivery"
+        ],
+        "popular": false,
+        "cta": {
+          "label": "Book Now",
+          "href": "#footer"
+        }
+      },
+      {
+        "id": "branding",
+        "name": "Branding",
+        "icon": "briefcase",
+        "price": 1200,
+        "priceLabel": "Starting from",
+        "description": "Professional headshots and brand photography to elevate your business presence.",
+        "features": [
+          "3-4 hour session",
+          "Professional headshots",
+          "Team & office shots",
+          "80+ edited photos",
+          "Commercial usage rights",
+          "Quick turnaround"
+        ],
+        "popular": false,
+        "cta": {
+          "label": "Book Now",
+          "href": "#footer"
+        }
+      },
+      {
+        "id": "graduation",
+        "name": "Graduation",
+        "icon": "graduation-cap",
+        "price": 400,
+        "priceLabel": "Starting from",
+        "description": "Commemorate your academic achievement with timeless graduation portraits.",
+        "features": [
+          "1-2 hour session",
+          "Cap & gown portraits",
+          "30+ edited photos",
+          "Family group shots",
+          "Campus location",
+          "Print-ready files"
+        ],
+        "popular": false,
+        "cta": {
+          "label": "Book Now",
+          "href": "#footer"
+        }
+      },
+      {
+        "id": "product",
+        "name": "Product Shoot",
+        "icon": "box",
+        "price": 500,
+        "priceLabel": "Starting from",
+        "description": "High-quality product photography that makes your items shine for e-commerce and marketing.",
+        "features": [
+          "Up to 20 products",
+          "White background shots",
+          "Lifestyle context shots",
+          "High-resolution files",
+          "E-commerce optimized",
+          "48-hour delivery"
+        ],
+        "popular": false,
+        "cta": {
+          "label": "Book Now",
+          "href": "#footer"
         }
       }
-    }
+    ]
   },
-
   "testimonials": {
     "sectionLabel": "/Testimonials",
     "sectionNumber": "07",
@@ -278,7 +411,7 @@
         "role": "Creative Director",
         "quote": "",
         "avatar": "",
-        "videoThumbnail": "https://placehold.co/500x600/3a3a3a/888888?text=Video+Testimonial",
+        "videoThumbnail": "/assets/images/avatar/5.jpg",
         "rating": 5,
         "ratingText": "4.9/5"
       },
@@ -287,8 +420,8 @@
         "type": "text",
         "name": "Emma V.",
         "role": "Founder",
-        "quote": "Working with Ayshan felt effortless. They have a rare ability to take complex ideas and distill them into something beautifully simple.",
-        "avatar": "https://placehold.co/48x48/444/fff?text=EV",
+        "quote": "Working with Kanero felt effortless. They have a rare ability to take complex ideas and distill them into something beautifully simple.",
+        "avatar": "/assets/images/avatar/4.jpg",
         "videoThumbnail": "",
         "rating": 5,
         "ratingText": "4.5/5"
@@ -298,8 +431,8 @@
         "type": "text",
         "name": "Julian M.",
         "role": "Creative Director",
-        "quote": "Ayshan doesn't just design, they listen, interpret, and then create with precision.",
-        "avatar": "https://placehold.co/48x48/444/fff?text=JM",
+        "quote": "Kanero doesn't just design, they listen, interpret, and then create with precision.",
+        "avatar": "/assets/images/avatar/3.jpg",
         "videoThumbnail": "",
         "rating": 5,
         "ratingText": "4.8/5"
@@ -310,7 +443,7 @@
         "name": "Sofia R.",
         "role": "Marketing Lead",
         "quote": "The attention to detail and creative vision exceeded all our expectations. Truly exceptional work.",
-        "avatar": "https://placehold.co/48x48/444/fff?text=SR",
+        "avatar": "/assets/images/avatar/2.jpg",
         "videoThumbnail": "",
         "rating": 5,
         "ratingText": "5.0/5"
@@ -322,13 +455,12 @@
         "role": "CEO",
         "quote": "",
         "avatar": "",
-        "videoThumbnail": "https://placehold.co/500x600/2a2a2a/888888?text=Video+Review",
+        "videoThumbnail": "/assets/images/avatar/1.jpg",
         "rating": 5,
         "ratingText": "4.7/5"
       }
     ]
   },
-
   "faq": {
     "sectionLabel": "/FAQs",
     "sectionNumber": "08",
@@ -376,10 +508,9 @@
       }
     ]
   },
-
   "footer": {
     "brand": {
-      "name": "Ayshan",
+      "name": "Kanero",
       "tagline": "Studio",
       "brandMark": "\u00ae"
     },
@@ -388,7 +519,7 @@
       "highlight": "we'd love to hear from you."
     },
     "contact": {
-      "email": "hello@ayshan.studio",
+      "email": "hello@Kanero.studio",
       "phone": "(123) 456-7890"
     },
     "newsletter": {
@@ -399,25 +530,58 @@
     "linkGroups": [
       {
         "links": [
-          { "name": "Home", "href": "#hero" },
-          { "name": "About", "href": "#why-us" },
-          { "name": "Projects", "href": "#works" },
-          { "name": "Blog", "href": "#faq" },
-          { "name": "Contact", "href": "#contact" }
+          {
+            "name": "Home",
+            "href": "#hero"
+          },
+          {
+            "name": "About",
+            "href": "#why-us"
+          },
+          {
+            "name": "Projects",
+            "href": "#works"
+          },
+          {
+            "name": "Testimonials",
+            "href": "#testimonials"
+          },
+          {
+            "name": "Contact",
+            "href": "#footer"
+          }
         ]
       },
       {
         "links": [
-          { "name": "Terms & Conditions", "href": "/terms" },
-          { "name": "Privacy Policy", "href": "/privacy" },
-          { "name": "404", "href": "/404" }
+          {
+            "name": "Terms & Conditions",
+            "href": "/terms"
+          },
+          {
+            "name": "Privacy Policy",
+            "href": "/privacy"
+          },
+          {
+            "name": "404",
+            "href": "/404"
+          }
         ]
       },
       {
         "links": [
-          { "name": "Twitter/X", "href": "https://twitter.com" },
-          { "name": "Instagram", "href": "https://instagram.com" },
-          { "name": "LinkedIn", "href": "https://linkedin.com" }
+          {
+            "name": "Twitter/X",
+            "href": "https://twitter.com"
+          },
+          {
+            "name": "Instagram",
+            "href": "https://instagram.com"
+          },
+          {
+            "name": "LinkedIn",
+            "href": "https://linkedin.com"
+          }
         ]
       }
     ],
@@ -425,8 +589,8 @@
       "designedIn": "Designed in",
       "tool": "Next.js",
       "by": "By",
-      "author": "Ayshan"
+      "author": "Kanero"
     },
-    "copyright": "\u00a9 2025 All rights reserved"
+    "copyright": "\u00a9 All rights reserved"
   }
 }
