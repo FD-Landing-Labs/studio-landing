@@ -16,7 +16,7 @@ const cormorantSC = Cormorant_SC({
 });
 
 export const metadata: Metadata = {
-  title: "Ayshan - Professional Photography Studio",
+  title: "Kanero - Professional Photography Studio",
   description: "Capturing life's beautiful moments with artistic vision. Professional photography services for weddings, portraits, events, and commercial projects.",
 };
 
