@@ -1,6 +1,5 @@
-import type { PlaceholderData } from "./types";
 import placeholderJson from "./placeholder.json";
 
-export const data: PlaceholderData = placeholderJson as PlaceholderData;
+export const data = placeholderJson;
 
-export * from "./types";
+export type PlaceholderData = typeof placeholderJson;
