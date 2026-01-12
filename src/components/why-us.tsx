@@ -21,7 +21,7 @@ const fadeUp = {
   animate: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] },
+    transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as const },
   },
 }
 
@@ -41,14 +41,14 @@ const cardVariants = {
   animate: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] },
+    transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as const },
   },
 }
 
 export function WhyUs() {
   return (
     <section id="why-us" className="py-20 md:py-28 lg:py-32 bg-white">
-      <div className="px-6 lg:px-10">
+      <div className="px-4 lg:px-10">
         {/* Section Header */}
         <div className="flex items-start justify-between mb-8 md:mb-12">
           <motion.span

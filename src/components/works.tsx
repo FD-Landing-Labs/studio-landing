@@ -32,7 +32,7 @@ const cardVariants = {
     y: 0,
     transition: {
       duration: 0.6,
-      ease: [0.25, 0.46, 0.45, 0.94],
+      ease: [0.25, 0.46, 0.45, 0.94] as const,
     },
   },
 }
@@ -43,7 +43,7 @@ const imageHover = {
     scale: 1.03,
     transition: {
       duration: 0.4,
-      ease: [0.25, 0.46, 0.45, 0.94],
+      ease: [0.25, 0.46, 0.45, 0.94] as const,
     },
   },
 }
@@ -51,7 +51,7 @@ const imageHover = {
 export function Works() {
   return (
     <section id="works" className="py-20 md:py-28 lg:py-32 bg-white">
-      <div className="px-6 lg:px-10">
+      <div className="px-4 lg:px-10">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-12 md:mb-16">
           {/* Left Side - Title & Description */}
@@ -105,7 +105,7 @@ export function Works() {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true, margin: "-50px" }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 gap-2"
         >
           {works.items.map((work, index) => (
             <motion.article

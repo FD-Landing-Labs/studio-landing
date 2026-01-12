@@ -46,7 +46,7 @@ const logoItem = {
 export function Hero() {
   return (
     <section id="hero" className="relative bg-white pt-24 pb-0 overflow-hidden">
-      <div className="px-6 lg:px-10">
+      <div className="px-4 lg:px-10">
         {/* Top Section - Brand Name & Description */}
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 lg:gap-16 mb-12">
           {/* Large Brand Name */}
@@ -57,7 +57,7 @@ export function Hero() {
             className="flex-shrink-0"
           >
             <h1 className="flex items-start">
-              <span className="text-[7rem] md:text-[15rem] font-medium -tracking-[0.1em] leading-[0.85] text-foreground text-primary-700">
+              <span className="text-[6rem] md:text-[15rem] font-medium -tracking-[0.1em] leading-[0.85] text-foreground text-primary-700">
                 {hero.brandName}
               </span>
               <span className="text-[clamp(2rem,4vw,5rem)] font-normal mt-2 lg:mt-4 ml-1">

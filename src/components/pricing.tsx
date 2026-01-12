@@ -17,7 +17,7 @@ export function Pricing() {
 
   return (
     <section id="pricing" className="py-20 md:py-28 lg:py-32 bg-muted/30">
-      <div className="px-6 lg:px-10">
+      <div className="px-4 lg:px-10">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-12 md:mb-16">
           <div className="flex-1 max-w-4xl">

@@ -14,7 +14,7 @@ const fadeUp = {
   animate: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] },
+    transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as const },
   },
 }
 
@@ -34,7 +34,7 @@ const cardVariants = {
   animate: {
     opacity: 1,
     x: 0,
-    transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] },
+    transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as const },
   },
 }
 
@@ -158,7 +158,7 @@ export function Testimonials() {
   }
 
   return (
-    <section id="testimonials" className="py-16 bg-primary-950 mx-6 md:mx-10 rounded-3xl">
+    <section id="testimonials" className="py-4 md:py-16 bg-primary-950 mx-4 md:mx-10 rounded-3xl">
       <div className="px-6 lg:px-10">
         {/* Section Header */}
         <div className="flex items-start justify-between mb-8 md:mb-12">
@@ -233,7 +233,7 @@ export function Testimonials() {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true, margin: "-50px" }}
-          className="flex gap-4 md:gap-5 overflow-x-auto scrollbar-hide pb-4 -mx-6 px-6 lg:-mx-10 lg:px-10"
+          className="flex gap-4 md:gap-5 overflow-x-auto scrollbar-hide -mx-6 px-6 lg:-mx-10 lg:px-10"
           style={{
             scrollbarWidth: "none",
             msOverflowStyle: "none",

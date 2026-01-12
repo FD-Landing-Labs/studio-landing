@@ -16,14 +16,14 @@ const menuVariants = {
     opacity: 0,
     transition: {
       duration: 0.3,
-      ease: [0.25, 0.46, 0.45, 0.94]
+      ease: [0.25, 0.46, 0.45, 0.94] as const
     }
   },
   open: {
     opacity: 1,
     transition: {
       duration: 0.4,
-      ease: [0.25, 0.46, 0.45, 0.94]
+      ease: [0.25, 0.46, 0.45, 0.94] as const
     }
   }
 }
@@ -46,7 +46,7 @@ const menuItemVariants = {
     y: 0,
     transition: {
       duration: 0.4,
-      ease: [0.25, 0.46, 0.45, 0.94]
+      ease: [0.25, 0.46, 0.45, 0.94] as const
     }
   }
 }
@@ -59,7 +59,7 @@ const imageVariants = {
     transition: {
       duration: 0.5,
       delay: 0.3,
-      ease: [0.25, 0.46, 0.45, 0.94]
+      ease: [0.25, 0.46, 0.45, 0.94] as const
     }
   }
 }
@@ -95,7 +95,7 @@ export function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className={`flex items-baseline gap-0 transition-colors duration-300 ${isExpanded ? "text-foreground" : "text-white"
+            className={`flex items-baseline gap-0 transition-colors duration-300 ${isExpanded ? "text-primary-700" : "text-white"
               }`}
           >
             <span className="text-2xl font-medium tracking-tighter">
@@ -126,7 +126,7 @@ export function Navbar() {
               size="sm"
               variant={"outline"}
               className={`hidden sm:flex rounded-full px-5 transition-all duration-300 tracking-tight ${isExpanded
-                ? "bg-foreground text-background hover:bg-foreground/90"
+                ? "bg-primary-500 text-white hover:bg-primary-600"
                 : "bg-white text-black hover:bg-white/90"
                 }`}
               asChild
@@ -138,8 +138,8 @@ export function Navbar() {
             <motion.button
               onClick={() => setIsExpanded(!isExpanded)}
               className={`flex items-center justify-center w-10 h-10 rounded-full transition-colors duration-300 ${isExpanded
-                ? "text-foreground hover:bg-muted"
-                : "text-white hover:bg-white/10"
+                ? "text-foreground hover:bg-primary-00"
+                : "text-white hover:bg-primary-600"
                 }`}
               aria-label={isExpanded ? "Close menu" : "Open menu"}
               whileHover={{ scale: 1.05 }}
@@ -204,7 +204,7 @@ export function Navbar() {
                         <Link
                           href={link.href}
                           onClick={closeMenu}
-                          className="group flex items-center justify-between py-5 transition-colors hover:text-primary tracking-tight"
+                          className="group flex items-center text-primary-500 justify-between py-5 transition-colors hover:text-primary tracking-tight"
                         >
                           <span className="text-2xl md:text-3xl lg:text-4xl font-medium tracking-tighter">
                             {link.name}
@@ -235,7 +235,7 @@ export function Navbar() {
                     />
                     {/* Overlay Content */}
                     <div className="absolute inset-0 flex flex-col justify-between p-6">
-                      <p className="text-white/90 text-4xl font-medium tracking-tighter">
+                      <p className="text-primary-100 text-4xl font-medium tracking-tighter">
                         {navbar.featured.studioName}
                       </p>
                       <p className="text-white/70 text-xs tracking-tight">
