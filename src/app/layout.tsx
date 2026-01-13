@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Cormorant_SC } from "next/font/google";
 import "./globals.css";
 import { SmoothScroll } from "@/components/smooth-scroll";
+import FloatingBadge from "@/components/FloatingBadge";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -17,7 +18,7 @@ const cormorantSC = Cormorant_SC({
 });
 
 export const metadata: Metadata = {
-  title: "Kanero - Professional Photography Studio",
+  title: "Ayshan - Professional Photography Studio",
   description: "Capturing life's beautiful moments with artistic vision. Professional photography services for weddings, portraits, events, and commercial projects.",
 };
 
@@ -33,6 +34,7 @@ export default function RootLayout({
         style={{ fontFamily: "var(--font-inter), system-ui, sans-serif" }}
       >
         <SmoothScroll>{children}</SmoothScroll>
+        <FloatingBadge />
       </body>
     </html>
   );

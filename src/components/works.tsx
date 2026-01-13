@@ -105,7 +105,7 @@ export function Works() {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true, margin: "-50px" }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-2"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2"
         >
           {works.items.map((work, index) => (
             <motion.article

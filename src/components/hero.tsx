@@ -116,12 +116,12 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
           className="relative w-full"
         >
-          <div className="relative aspect-[4/3] md:aspect-[16/10] lg:aspect-[16/7] w-full rounded-3xl overflow-hidden bg-muted">
+          <div className="relative aspect-[4/5] md:aspect-[16/10] lg:aspect-[16/7] w-full rounded-3xl overflow-hidden bg-muted">
             <Image
               src={hero.image}
               alt="Hero portrait"
               fill
-              className="object-cover grayscale hover:grayscale-0"
+              className="object-cover md:grayscale md:hover:grayscale-0"
               priority
               unoptimized
             />

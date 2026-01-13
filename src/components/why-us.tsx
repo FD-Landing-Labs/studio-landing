@@ -77,10 +77,10 @@ export function WhyUs() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-          className="text-[clamp(2rem,5vw,3.5rem)] font-medium tracking-tighter leading-[1] mb-12 md:mb-16 max-w-5xl"
+          className="text-[clamp(2rem,5vw,3.5rem)] font-medium capitalize tracking-tighter leading-[1] mb-12 md:mb-16 max-w-5xl"
         >
           {whyUs.headline.main}{" "}
-          <span className="text-primary-500">{whyUs.headline.highlight}</span>
+          <span className="text-primary-500 capitalize">{whyUs.headline.highlight}</span>
         </motion.h2>
 
         {/* Bento Grid */}
