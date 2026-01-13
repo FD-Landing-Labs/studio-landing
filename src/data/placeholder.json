@@ -1,15 +1,15 @@
 {
   "site": {
-    "name": "Kanero",
+    "name": "Ayshan",
     "tagline": "Photography Studio",
     "description": "Professional photography services capturing your most precious moments with artistic vision and technical excellence.",
     "logo": {
-      "default": "https://placehold.co/120x40/1a1a1a/ffffff?text=Kanero",
-      "white": "https://placehold.co/120x40/ffffff/1a1a1a?text=Kanero",
-      "alt": "Kanero Photography Studio Logo"
+      "default": "https://placehold.co/120x40/1a1a1a/ffffff?text=Ayshan",
+      "white": "https://placehold.co/120x40/ffffff/1a1a1a?text=Ayshan",
+      "alt": "Ayshan Photography Studio Logo"
     },
     "seo": {
-      "title": "Kanero - Professional Photography Studio",
+      "title": "Ayshan - Professional Photography Studio",
       "description": "Capturing life's beautiful moments with artistic vision. Professional photography services for weddings, portraits, events, and commercial projects.",
       "keywords": [
         "photography",
@@ -19,7 +19,7 @@
         "events",
         "professional photographer"
       ],
-      "ogImage": "https://placehold.co/1200x630/1a1a1a/ffffff?text=Kanero+Photography"
+      "ogImage": "https://placehold.co/1200x630/1a1a1a/ffffff?text=Ayshan+Photography"
     },
     "theme": {
       "primaryColor": "#ac8f46",
@@ -29,7 +29,7 @@
     }
   },
   "navbar": {
-    "brandName": "Kanero",
+    "brandName": "Ayshan",
     "brandMark": "\u00ae",
     "barLinks": [
       {
@@ -77,12 +77,12 @@
       }
     ],
     "featured": {
-      "studioName": "Kanero\u00ae Studio",
+      "studioName": "Ayshan\u00ae Studio",
       "image": "/assets/images/feature.jpg",
       "copyright": "\u00a9 2026 All rights reserved"
     },
     "contact": {
-      "email": "hello@Kanero.studio",
+      "email": "hello@Ayshan.studio",
       "phone": "(123) 456-7890"
     },
     "socialLinks": [
@@ -101,9 +101,9 @@
     ]
   },
   "hero": {
-    "brandName": "Kanero",
+    "brandName": "Ayshan",
     "brandMark": "\u00ae",
-    "description": "Kanero is a photography studio crafting refined visual stories and timeless portraits.",
+    "description": "Ayshan is a photography studio crafting refined visual stories and timeless portraits.",
     "image": "/assets/images/hero.jpg",
     "clients": {
       "logos": [
@@ -202,11 +202,11 @@
     "sectionLabel": "/Why us",
     "sectionNumber": "03",
     "headline": {
-      "main": "We cut through noise to create designs that are",
-      "highlight": "thoughtful, timeless, and impactful."
+      "main": "We capture moments that are",
+      "highlight": "authentic, timeless, and unforgettable."
     },
     "featuredCard": {
-      "title": "Purposeful Design for Modern Brands.",
+      "title": "Professional Photography for Every Occasion.",
       "image": "/assets/images/sky.jpg",
       "year": "2026",
       "cta": {
@@ -214,10 +214,10 @@
         "href": "#contact"
       },
       "bulletPoints": [
-        "Collaborative Approach",
+        "Personalized Approach",
         "Quick turnaround",
         "Clear Communication",
-        "Consistent Quality",
+        "Stunning Results",
         "Reliable Support"
       ]
     },
@@ -233,7 +233,7 @@
       "clientCount": "100+",
       "clientText": "Happy clients worldwide",
       "testimonial": {
-        "quote": "Kanero understood our brand better than we did. Their ability to find the essential and express it simply is what sets them apart.",
+        "quote": "Ayshan captured our wedding beautifully. Their ability to find the perfect moments and preserve them forever is what sets them apart.",
         "author": "Sofia Ford",
         "role": "Founder",
         "avatar": "/assets/images/avatar/4.jpg"
@@ -242,28 +242,28 @@
     "features": [
       {
         "id": "feature-1",
-        "icon": "zap",
-        "title": "Streamlined Process",
-        "description": "Our focused, step-by-step approach saves time and keeps projects moving smoothly."
+        "icon": "camera",
+        "title": "Professional Equipment",
+        "description": "We use top-of-the-line cameras and lighting to capture every detail perfectly."
       },
       {
         "id": "feature-2",
-        "icon": "scissors",
-        "title": "Scalable Design",
-        "description": "We create systems that grow with your brand and stay effective over time."
+        "icon": "image",
+        "title": "Expert Editing",
+        "description": "Each photo is carefully retouched to ensure stunning, gallery-worthy results."
       },
       {
         "id": "feature-3",
         "icon": "clock",
-        "title": "24/7 Dedicated Support",
-        "description": "We're always here when you need us, ready to answer questions, provide updates."
+        "title": "Fast Delivery",
+        "description": "Receive your edited photos quickly, with previews available within days of your session."
       }
     ],
     "brandCard": {
-      "brandName": "Kanero\u00ae",
+      "brandName": "Ayshan\u00ae",
       "image": "/assets/images/me.jpg",
-      "headline": "Design with intent.",
-      "tagline": "No excess, no fluff."
+      "headline": "Capture with passion.",
+      "tagline": "Every moment matters."
     }
   },
   "pricing": {
@@ -420,7 +420,7 @@
         "type": "text",
         "name": "Emma V.",
         "role": "Founder",
-        "quote": "Working with Kanero felt effortless. They have a rare ability to take complex ideas and distill them into something beautifully simple.",
+        "quote": "Working with Ayshan felt effortless. They have a rare ability to capture genuine emotions and turn them into timeless memories.",
         "avatar": "/assets/images/avatar/4.jpg",
         "videoThumbnail": "",
         "rating": 5,
@@ -431,7 +431,7 @@
         "type": "text",
         "name": "Julian M.",
         "role": "Creative Director",
-        "quote": "Kanero doesn't just design, they listen, interpret, and then create with precision.",
+        "quote": "Ayshan doesn't just take photos, they listen, understand your vision, and capture it with precision.",
         "avatar": "/assets/images/avatar/3.jpg",
         "videoThumbnail": "",
         "rating": 5,
@@ -442,7 +442,7 @@
         "type": "text",
         "name": "Sofia R.",
         "role": "Marketing Lead",
-        "quote": "The attention to detail and creative vision exceeded all our expectations. Truly exceptional work.",
+        "quote": "The attention to detail and artistic vision exceeded all our expectations. Every photo tells a story.",
         "avatar": "/assets/images/avatar/2.jpg",
         "videoThumbnail": "",
         "rating": 5,
@@ -474,43 +474,43 @@
       {
         "id": "faq-1",
         "question": "What kind of clients do you work with?",
-        "answer": "We work with a diverse range of clients including startups, established brands, creative agencies, and individual entrepreneurs. Whether you're launching a new product or refreshing an existing brand, we're here to help bring your vision to life."
+        "answer": "We work with a diverse range of clients including couples, families, businesses, and event planners. Whether you're celebrating a wedding, capturing family milestones, or need professional headshots, we're here to preserve your precious moments."
       },
       {
         "id": "faq-2",
         "question": "What services do you offer?",
-        "answer": "Our services include brand identity design, web design and development, photography, video production, and creative direction. We offer both comprehensive packages and individual services tailored to your specific needs."
+        "answer": "Our services include wedding photography, portrait sessions, event coverage, product photography, and commercial shoots. We offer both comprehensive packages and individual sessions tailored to your specific needs."
       },
       {
         "id": "faq-3",
-        "question": "How do you price your projects?",
-        "answer": "We offer flexible pricing options including project-based fees and monthly retainers. After understanding your needs during our initial consultation, we provide a detailed proposal with transparent pricing. No hidden fees, ever."
+        "question": "How do you price your sessions?",
+        "answer": "We offer flexible pricing options based on session type and duration. After understanding your needs during our initial consultation, we provide a detailed quote with transparent pricing. No hidden fees, ever."
       },
       {
         "id": "faq-4",
-        "question": "What is your typical project timeline?",
-        "answer": "Timelines vary based on project scope. A brand identity project typically takes 4-6 weeks, while a complete website can take 6-10 weeks. We'll provide a detailed timeline during our kickoff meeting and keep you updated throughout the process."
+        "question": "How long until I receive my photos?",
+        "answer": "Delivery timelines vary based on session type. Portrait sessions are typically delivered within 1-2 weeks, while wedding photos take 4-6 weeks for full editing. We'll provide previews within days of your shoot and keep you updated throughout."
       },
       {
         "id": "faq-5",
-        "question": "Can we collaborate remotely?",
-        "answer": "Absolutely! We work with clients globally and have refined our remote collaboration process. We use modern tools for communication, file sharing, and project management to ensure seamless collaboration regardless of location."
+        "question": "Do you travel for destination shoots?",
+        "answer": "Absolutely! We love destination weddings and travel shoots. We work with clients globally and can travel to your preferred location. Travel fees are discussed upfront and included in your quote for complete transparency."
       },
       {
         "id": "faq-6",
-        "question": "Do you accept one-off design tasks or only full projects?",
-        "answer": "We accept both! While we love comprehensive projects, we understand that sometimes you need quick design support. Our monthly retainer plans are perfect for ongoing design needs, and we also take on smaller, focused projects."
+        "question": "Do you accept mini-sessions or only full packages?",
+        "answer": "We accept both! While we love full event coverage, we understand that sometimes you need a quick mini-session. Our packages range from hour-long portrait sessions to full-day wedding coverage, and we're happy to customize based on your needs."
       },
       {
         "id": "faq-7",
-        "question": "How many concepts or revisions are included?",
-        "answer": "Our standard packages include 2-3 initial concepts and 2 rounds of revisions. We find this provides enough creative exploration while keeping projects focused. Additional revisions can be arranged if needed."
+        "question": "How many edited photos will I receive?",
+        "answer": "The number of edited photos varies by package. Portrait sessions include 30-50 photos, while wedding packages include 500+ fully edited images. All photos go through professional editing and color correction. Additional retouching can be arranged if needed."
       }
     ]
   },
   "footer": {
     "brand": {
-      "name": "Kanero",
+      "name": "Ayshan",
       "tagline": "Studio",
       "brandMark": "\u00ae"
     },
@@ -519,7 +519,7 @@
       "highlight": "we'd love to hear from you."
     },
     "contact": {
-      "email": "hello@Kanero.studio",
+      "email": "hello@Ayshan.studio",
       "phone": "(123) 456-7890"
     },
     "newsletter": {
@@ -589,7 +589,7 @@
       "designedIn": "Designed in",
       "tool": "Next.js",
       "by": "By",
-      "author": "Kanero"
+      "author": "Ayshan"
     },
     "copyright": "\u00a9 All rights reserved"
   }
